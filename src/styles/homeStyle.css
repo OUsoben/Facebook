@@ -1,0 +1,160 @@
+body{
+    background-color: 	#f7f7f7;
+
+}
+   .storyImage {
+    border-radius: 10px;
+   }
+
+   .storyImage2{
+    background-image: url("https://image.made-in-china.com/202f0j00qovVJBEMkcRN/Air-Jordan-1-High-Dark-Mocha-Basketball-Nike-Shoes.jpg");
+       background-repeat:no-repeat;
+       -webkit-background-size:cover;
+       -moz-background-size:cover;
+       -o-background-size:cover;
+       background-size: cover;
+       background-position:center;
+       border-radius: 10px;    
+   }
+   .storyImage3{
+    background-image: url("https://i.pinimg.com/236x/8f/39/a4/8f39a427cb170b957a99179d083c7134.jpg");
+       background-repeat:no-repeat;
+       -webkit-background-size:cover;
+       -moz-background-size:cover;
+       -o-background-size:cover;
+       background-size: cover;
+       background-position:center;
+       border-radius: 10px;    
+   }
+   .storyImage4{
+    background-image: url("https://i.pinimg.com/236x/75/f1/02/75f102c99d18815b28610fc28f60d864.jpg");
+       background-repeat:no-repeat;
+       -webkit-background-size:cover;
+       -moz-background-size:cover;
+       -o-background-size:cover;
+       background-size: cover;
+       background-position:center;
+       border-radius: 10px;    
+   }
+   .iconStory {
+    margin-left: 35%;
+    position: relative;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    cursor: pointer;
+    top: -17px;
+    background-color: rgb(89, 6, 223);
+  }
+  .bg-graylight{
+    background-color: #E2E8F0;
+  }
+  .iconReact {
+    padding-left: 5px;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    cursor: pointer; 
+    background-color: rgb(96, 81, 231);
+  }
+ .bg-white{
+    background-color: #FFFFFF;
+ }
+ .circle {
+   padding: 2px;
+   text-align: center; 
+   border-radius: 50%;
+   display: inline-block;
+   font-size:1.1em;
+   font-weight:600;
+   background-color: rgba(236, 236, 236, 0.1);
+   border: 3px solid blue;
+ }
+ .postImage{
+   background-image: url("hhttps://www.facebook.com/photo.php?fbid=728231812783030&set=pb.100067886546387.-2207520000&type=3");
+      background-repeat:no-repeat;
+      -webkit-background-size:cover;
+      -moz-background-size:cover;
+      -o-background-size:cover;
+      background-size: cover;
+      background-position:center;
+
+  }
+  .postImage{
+   background-image: url("https://scontent.fpnh11-2.fna.fbcdn.net/v/t39.30808-6/432778887_727136356225909_796181730647558437_n.jpg?stp=c52.0.206.206a_dst-jpg_p206x206&_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEloSVe-RfV2Y5P48VldrRwZD27_fh0ettkPbv9-HR621yky6ZONKDLKOk0mJV4ZSh4JireXEjX1QgtsqZ3z18V&_nc_ohc=3ulrZFFIOQEAX_8Qa8T&_nc_ht=scontent.fpnh11-2.fna&oh=00_AfDMcuABjhFt2xdcIx2REYF3CzBeaImEh3g3kWCgk0YKiw&oe=65FBD560");
+      background-repeat:no-repeat;
+      -webkit-background-size:cover;
+      -moz-background-size:cover;
+      -o-background-size:cover;
+      background-size: cover;
+      background-position:center;
+  }
+  .postImage2{
+   background-image: url("https://scontent.fpnh11-2.fna.fbcdn.net/v/t39.30808-6/431660705_727136256225919_5448255145453648622_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHdsP8wOtOdkeU7aipkzS1xB2fFCgdzbk0HZ8UKB3NuTWpjt8h2fSszrgIj9esrnuZA91go6-hz7C6C0o_IF0Tg&_nc_ohc=XwD9r5zx-ykAX_i08yJ&_nc_oc=AQlB2km8hMtgNUiOB9JGiaMX3IpAH1hJJLe4eXmhYSHxHJICrE_pK_UXPG0ibX_PCI4&_nc_ht=scontent.fpnh11-2.fna&oh=00_AfB2zL-YgvlHes8t1uP-BPg7R8ouH-GtQ3jIKdoFUj5dbg&oe=65FC1CE1");
+      background-repeat:no-repeat;
+      -webkit-background-size:cover;
+      -moz-background-size:cover;
+      -o-background-size:cover;
+      background-size: cover;
+      background-position:center;
+  }
+  .postImage3{
+   background-image: url("https://scontent.fpnh11-1.fna.fbcdn.net/v/t39.30808-6/431730653_727136246225920_3772349740014044362_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGjjVa3tMogNrZQ8Rhe5Q20Yjc5ZRrJ8BFiNzllGsnwEcenldISEzvJbxL5LnfkdoCOFiuiYe9lsPeUqzTx9T_k&_nc_ohc=uFTuIISnnRUAX_sanVI&_nc_ht=scontent.fpnh11-1.fna&oh=00_AfB7OsfWl2j5Gc-BQrs0HvUvy66jIZ4_iG24CtCb32RA0g&oe=65FCE450");
+      background-repeat:no-repeat;
+      -webkit-background-size:cover;
+      -moz-background-size:cover;
+      -o-background-size:cover;
+      background-size: cover;
+      background-position:center;
+  }
+  .postImage4{
+   background-image: url("https://scontent.fpnh11-2.fna.fbcdn.net/v/t39.30808-6/431638477_727136236225921_7951703023496261061_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFpOYC72Lbw2PFlW8s6nDIQSflncIY1fnlJ-WdwhjV-ec4QCQjXkPBlguv8LyTr2bG_dRvJlW7jcD95PlOqcZi-&_nc_ohc=LwwFDxSvVTYAX-p-I9-&_nc_ht=scontent.fpnh11-2.fna&oh=00_AfATx_0XoJxWMh8tohFbwPPGRINl6Y1fNuk1aPwley9ORg&oe=65FCB413");
+      background-repeat:no-repeat;
+      -webkit-background-size:cover;
+      -moz-background-size:cover;
+      -o-background-size:cover;
+      background-size: cover;
+      background-position:center;
+  }
+  .postImage5{
+   background-image: url("https://scontent.fpnh11-2.fna.fbcdn.net/v/t39.30808-6/430216807_807039891462784_5916267826788097131_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHKr0mbrUuM9IqTb5k6L32HodLUayv7ttah0tRrK_u21iennNrGqgyzJ1hs1jvYFZFlrdZTXtgJUZszAl_J7IyU&_nc_ohc=6o4z0yuYbg8AX-5yza2&_nc_ht=scontent.fpnh11-2.fna&oh=00_AfAjevRuKWBf57VNvYH6ibwxeUAvsfjCW7XvmV5gb9IU4A&oe=65FCF94D");
+      background-repeat:no-repeat;
+      -webkit-background-size:cover;
+      -moz-background-size:cover;
+      -o-background-size:cover;
+      background-size: cover;
+      background-position:center;
+  }
+  .postImage6{
+   background-image: url("https://scontent.fpnh11-1.fna.fbcdn.net/v/t39.30808-6/430172965_807040588129381_7424123196694459918_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEE9uuI6ET-OIevzde4FRjKB1rn2pudK1wHWufam50rXIVjlUZblFnaz-csDA7ivxWOuTWXBLEZAlWQTv5mMHj1&_nc_ohc=oyC4JPlUpz8AX98-Fwv&_nc_ht=scontent.fpnh11-1.fna&oh=00_AfAdtm8Jf1CPjKwMijcn3fq-CZgzoZziWdQ4S2ABQAon4A&oe=65FD7283");
+      background-repeat:no-repeat;
+      -webkit-background-size:cover;
+      -moz-background-size:cover;
+      -o-background-size:cover;
+      background-size: cover;
+      background-position:center;
+  }
+  .postImage7{
+   background-image: url("https://scontent.fpnh11-1.fna.fbcdn.net/v/t39.30808-6/429575888_807040561462717_1998065386425487328_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHYdyRLx9iC6GZBy6goi7PZ1WN4YImMBeDVY3hgiYwF4Hqq8W_6o4L4cueLj6Nf3NPFBheRLHtL2fpGaIKEu-IJ&_nc_ohc=DemUy_b0o9MAX_0Hcdx&_nc_oc=AQlVPp6z02GYDhQthsgQOoHiLQPehDzUuOA4oUhfnG1Cm1V0t2uR8-hvTw2ghXYgmy0&_nc_ht=scontent.fpnh11-1.fna&oh=00_AfA7dze9kELSipkt3snKx6gPpi_a-UYFGWmj4TC58udN7g&oe=65FCBFA5");
+      background-repeat:no-repeat;
+      -webkit-background-size:cover;
+      -moz-background-size:cover;
+      -o-background-size:cover;
+      background-size: cover;
+      background-position:center;
+  }
+  .postImage8{
+   background-image: url("https://scontent.fpnh11-2.fna.fbcdn.net/v/t39.30808-6/429563032_807040604796046_8160406632996999865_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHiDySYetyhHBKYEGMzB_O7oUAeQ5EC9_qhQB5DkQL3-gImNe4J9YfV23UbFS5sgAwXARJroPoxUR5c1q6zKhAV&_nc_ohc=AEV_J5l7r78AX-wbrS4&_nc_ht=scontent.fpnh11-2.fna&oh=00_AfATR5hKs3uFYBuLYngarA6eAoyUqLatp6OTCYAH0Fo2Yw&oe=65FCACD8");
+      background-repeat:no-repeat;
+      -webkit-background-size:cover;
+      -moz-background-size:cover;
+      -o-background-size:cover;
+      background-size: cover;
+      background-position:center;
+  }

@@ -1,0 +1,18 @@
+
+    .modal-dialog {
+        margin-top: 0px;
+        margin: auto; 
+        margin-right: 10px;
+        margin-top: 50px;
+        overflow-x: auto; 
+        
+        /* margin: auto; */
+      }
+      .modal-content { 
+        position: sticky;
+
+         margin-bottom: -150px;
+         border-radius: 0 0 5px 5px;
+        
+      }
+   
