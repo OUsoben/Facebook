@@ -49,12 +49,12 @@ const Homepage = () => {
   let OrderOtions = [
     {
       imageUrl:
-        "https://scontent.fpnh11-1.fna.fbcdn.net/v/t39.30808-6/356825302_3533867803538096_4945128752249389424_n.jpg?stp=c25.0.50.50a_cp0_dst-jpg_p50x50&_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFSiqH5NdGaSX4m89lT-9o-LNs6lVkkOwQs2zqVWSQ7BE-VDM72gDuMpdRBiiUXncDfw1V3lJADgm0SJ6mtigEB&_nc_ohc=HKvXPIzferYAX95R0VD&_nc_ht=scontent.fpnh11-1.fna&oh=00_AfDUuxsFZmPSVMiY37HKsdHcEH8mIqCiOpxf6qALDjHaFw&oe=65FB55F2",
+        "https://cdn.worldvectorlogo.com/logos/it-3.svg",
       titleName: "IT & Media Cambodia",
     },
     {
       imageUrl:
-        "https://scontent.fpnh11-1.fna.fbcdn.net/v/t39.30808-6/313027222_223894613322327_3395568170130132142_n.jpg?stp=c4.0.50.50a_cp0_dst-jpg_p50x50&_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeG78q-LsKlKT2y0l799jvlSPC2NzgsMm2M8LY3OCwybY3eAVMzx0vk83PDtHhlVFNUrNYbGaICydXR9LNz-YUOL&_nc_ohc=kgjxREv2mSMAX8hx5na&_nc_ht=scontent.fpnh11-1.fna&oh=00_AfDWleFEs_gstdbzZlk5C6qCZNTm83adX3R4K7_3J2RQWg&oe=65FB11DD",
+        "https://images.assetsdelivery.com/compings_v2/robertgoudappel/robertgoudappel1811/robertgoudappel181100085.jpg",
       titleName: "IT Job in Cambodia",
     },
     {
@@ -74,7 +74,7 @@ const Homepage = () => {
     },
     {
       imageUrl:
-        "https://scontent.fpnh11-2.fna.fbcdn.net/v/t39.30808-6/306194586_10223953689621793_5755057819744060505_n.jpg?stp=c19.0.50.50a_cp0_dst-jpg_p50x50&_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGF6kZquFusWQGB62Ss8G8_g1nCESYx8eGDWcIRJjHx4ZQ2MgDeRBdAlKYAznZvLcTPL2zMIXIzpQMWDu930oew&_nc_ohc=ch57UYJg628AX8Dh6rF&_nc_ht=scontent.fpnh11-2.fna&oh=00_AfDxG3N_Xfo5CnM8FM-T8E4wBWbMbAgxvjWgQKcMo3mkYA&oe=65FB428D",
+        "https://i0.wp.com/junilearning.com/wp-content/uploads/2020/06/python-programming-language.webp?fit=800%2C800&ssl=1",
       titleName: "Python Group",
     },
   ];
@@ -156,7 +156,6 @@ const Homepage = () => {
         "https://scontent.fpnh11-1.fna.fbcdn.net/v/t1.6435-1/189080926_309898550588275_8264110849064117025_n.jpg?stp=cp0_dst-jpg_p60x60&_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=lhzFYm0aW40AX_yIl7U&_nc_ht=scontent.fpnh11-1.fna&oh=00_AfCWEznio11HtzIHGRGFmjTn_TjCap3sOsx0XRZ_e8aoFg&oe=661FB500",
       titleName: "Keshi",
     },
-    
   ];
   return (
     <div className="row me-0">
@@ -366,10 +365,7 @@ const Homepage = () => {
         </div>
         <div>
           <div className="d-flex justify-content-center mt-3 ">
-            <div
-              style={{ width: "600px" }}
-              className="bg-white rounded border"
-            >
+            <div style={{ width: "600px" }} className="bg-white rounded border">
               <div className="ps-3 pt-3 d-flex justify-content-between">
                 <div className="d-flex">
                   <img
@@ -416,7 +412,7 @@ const Homepage = () => {
                 <img
                   style={{ width: "100%" }}
                   className="img-fluid contentImage"
-                  src="https://scontent.fpnh11-2.fna.fbcdn.net/v/t39.30808-6/431014812_815269727305900_5211268723449408080_n.jpg?stp=dst-jpg_p526x296&_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFsuEYKoayCfEpDkJw7gRGsiGpVmxMsAHaIalWbEywAdm4rRWHAZeAz78NfmDSfxr2q9s4tPxKKXTD2XE1rJJoR&_nc_ohc=Hd2ZdlJYUTcAX_CS5gm&_nc_ht=scontent.fpnh11-2.fna&oh=00_AfA7iZ6J0suF2EiApFKVv9dptdODanpkn8XgZZZsIbL9-Q&oe=65FCF2C7"
+                  src="https://www.acledabank.com.kh/kh/assets/image/img-career.jpg"
                   alt=""
                 />
                 <div className="pt-2 ps-2 d-flex">
@@ -447,7 +443,7 @@ const Homepage = () => {
                 </div>
                 <hr className="mx- my-1" />
                 <div className="d-flex ">
-                  <button className="btn   container ">
+                  <button className="btn text-primary  container ">
                     <span>
                       {" "}
                       <FontAwesomeIcon icon={faThumbsUp} />{" "}
@@ -475,14 +471,11 @@ const Homepage = () => {
         </div>
         <div>
           <div className="d-flex justify-content-center mt-3 ">
-            <div
-              style={{ width: "600px", }}
-              className="bg-white rounded border"
-            >
+            <div style={{ width: "600px" }} className="bg-white rounded border">
               <div className="ps-3 pt-3 d-flex justify-content-between">
                 <div className="d-flex">
                   <img
-                    src="https://scontent.fpnh11-2.fna.fbcdn.net/v/t39.30808-1/369252135_344749128083057_6557489608635682665_n.png?stp=dst-png_p200x200&_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFOuxw3bvqBW1ca161KdI3zRRnBb74gppVFGcFvviCmlZ87EVPuz07RvVNOel44xGqpEy3c8fe-UXQRwJcOjRAY&_nc_ohc=K-0CtBlzs4sAX-c9B3Q&_nc_ht=scontent.fpnh11-2.fna&oh=00_AfAfb8HXW_S_50EmjyuWvMmcfdAT_1zwAoIGvj5HMakkSA&oe=65FD1E06"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNqwFvLm3BUbkdv5q_rP9sFbNjZKSJ6W8vrdpWYRq2Uc3KC8eS0HWfofzcu7yFyId7WbY&usqp=CAU"
                     class=" circle border-primary murecho"
                     height="44"
                     alt=""
@@ -509,7 +502,7 @@ const Homepage = () => {
                   />
                 </a>
               </div>
-               <div className="">
+              <div className="">
                 <p className="ps-2">
                   កំពុងតែស្វែងរកស្បែកជើងរត់ដែលមានគុណភាពល្អនិងមានការផ្តល់ជូននៅការធានាម៉ែនទេ?
                   នៅ Decathlon
@@ -519,17 +512,15 @@ const Homepage = () => {
                   Ref: <br />
                   <a href="">#decathloncambodia #runningshoes #warranty</a>
                 </p>
-    
+
                 <div
                   style={{ width: "100%", height: "600px" }}
                   className=" d-flex gap-1 flex-column flex-wrap"
                 >
-                
-                <div
+                  <div
                     style={{ width: "50%", height: "100%" }}
                     className="postImage5"
-                  >
-                  </div> 
+                  ></div>
                   <div
                     style={{ width: "49%", height: "198px" }}
                     className="postImage6"
@@ -606,14 +597,14 @@ const Homepage = () => {
               <div className="ps-3 pt-3 d-flex justify-content-between">
                 <div className="d-flex">
                   <img
-                    src="https://scontent.fpnh11-1.fna.fbcdn.net/v/t39.30808-1/353819637_580393880900158_5343069299590131672_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=1&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEL5n7IMng_4fthLMSO4wUzxaTCcwF2fxTFpMJzAXZ_FL01jq2aLCLvXpoZ-GR9GL2sPKgLYmsJp5OunR2RZg29&_nc_ohc=ghmBpssq7SkAX-9bE72&_nc_ht=scontent.fpnh11-1.fna&oh=00_AfAKclLI8hRel_wVpxYXLv_cBHssjlQ5OQ_yFy8KYWtUbw&oe=65FD3414"
-                    class="rounded-circle  murecho"
+                    src="https://static.vecteezy.com/system/resources/previews/019/136/302/original/adidas-logo-adidas-icon-free-free-vector.jpg"
+                    class="circle  murecho"
                     height="44"
                     alt=""
                     loading="lazy"
                   />
                   <p className="fw-bolder ps-3">
-                    Metfone <br />
+                    adidas <br />
                     <span
                       style={{ fontSize: "13px" }}
                       className="text-muted fw-light"
@@ -635,13 +626,11 @@ const Homepage = () => {
               </div>
               <div className="">
                 <p className="ps-2">
-                  ធ្វើអ្វីក៏មិនទាក់ មិនរអាក់រអួលដែរ​ ជាមួយអ៉ីនធឺណិត Wi-Fi
-                  ល្បឿនលឿនលើសពីទ្វេដង របស់ Metfone ចំណាយត្រឹមតែ៖ ᯤ $15/ខែ
-                  (ទទួលបានល្បឿនអ៉ីនធឺណិត 50Mbps) ᯤ $18/ខែ (ទទួលបានល្បឿនអ៉ីនធឺណិត
-                  60Mbps) ᯤ $25/ខែ (ទទួលបានល្បឿនអ៉ីនធឺណិត 85Mbps) ᯤ $35/ខែ
-                  (ទទួលបានល្បឿនអ៉ីនធឺណិត 120Mbps) 🚨 បញ្ជាក់៖ 🤙🏻 អតិថិជនចាស់
-                  ឬអតិថិជនដែលកំពុងប្រើប្រាស់ក៏ទទួលបានការតំឡើងល្បឿនអ៉ីនធឺណិត Wifi
-                  ដូចគ្នា!
+                  What if by simply choosing the right shoe you could decrease
+                  your carbon footprint? We’re teaming up with Allbirds, as we
+                  s eek answers on our joint mission to create a
+                  sports-performance shoe with the lowest carbon emissions.
+                  Because we can’t get to where we are going alone.
                   <span className="fw-bold"> ...see more</span>{" "}
                 </p>
                 <div
@@ -651,8 +640,7 @@ const Homepage = () => {
                   <div
                     style={{ width: "49%", height: "50%" }}
                     className="postImage"
-                  >
-                  </div>
+                  ></div>
                   <div
                     style={{ width: "50%", height: "50%" }}
                     className="postImage2"
@@ -715,15 +703,18 @@ const Homepage = () => {
                     </span>
                     Share
                   </button>
-                </div> 
-              </div> 
-            </div>  
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
       {/* right side */}
-      <section style={{overflow: "auto",height:"900px"}} className="  col-xl-2 d-none d-xl-block ">
+      <section
+        style={{ overflow: "auto", height: "900px" }}
+        className="  col-xl-2 d-none d-xl-block "
+      >
         <div className="d-flex justify-content-between mt-3">
           <p>Your Pages and profiles</p>
           <a style={{ textDecorationLine: "none" }} href="#">

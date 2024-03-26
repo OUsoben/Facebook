@@ -8,11 +8,7 @@
   font-size: 23px;
   cursor: pointer;
 }
-
-.step.active {
-  opacity: 1
-}
-.step:focus{
+.step:active{
   color: rgb(76, 0, 255);
   background-color: rgba(15, 15, 206, 0.281);
   
