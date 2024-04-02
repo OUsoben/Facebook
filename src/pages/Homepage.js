@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/homeStyle.css";
 import LeftSide from "../components/LeftSide";
+import "../styles/leftSideStyle.css"
 import {
   faAngleDown,
   faCamera,
@@ -29,7 +30,7 @@ const Homepage = () => {
     },
     {
       imageUrl:
-        "https://png.pngitem.com/pimgs/s/2-25088_transparent-facebook-png-transparente-group-icon-circle-png.png",
+        "https://cdn.kibrispdr.org/data/140/facebook-group-logo-png-55.jpg",
       titleName: " Groups",
     },
     {
@@ -47,11 +48,7 @@ const Homepage = () => {
     },
   ];
   let OrderOtions = [
-    {
-      imageUrl:
-        "https://cdn.worldvectorlogo.com/logos/it-3.svg",
-      titleName: "IT & Media Cambodia",
-    },
+   
     {
       imageUrl:
         "https://images.assetsdelivery.com/compings_v2/robertgoudappel/robertgoudappel1811/robertgoudappel181100085.jpg",
@@ -134,7 +131,7 @@ const Homepage = () => {
     {
       imageUrl:
         "https://i.guim.co.uk/img/media/2965737a8d6966d949a9c7bfc255af426b5a79ac/443_69_2406_1444/master/2406.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=e8224f4f999aad1326f43373a2a7d781",
-      titleName: "Travis Scoot",
+      titleName: "Travis Scott",
     },
     {
       imageUrl:
@@ -160,16 +157,16 @@ const Homepage = () => {
   return (
     <div className="row me-0">
       {/* left side */}
-      <section className="col-xl-2 d-none d-xxl-block">
-        <div style={{ cursor: "pointer" }} className="d-flex mt-4 ps-3">
+      <section className="col-xl-2 d-none d-xxl-block position-fixed start-0">
+        <div style={{ cursor: "pointer" }} className="d-flex mt-3  item-left rounded">
           <img
             src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
-            class="rounded-circle  murecho"
+            class="rounded-circle m-2 ms-3 murecho"
             height="40"
             alt="Black and White Portrait of a Man"
             loading="lazy"
           />
-          <p className="pt-2 ps-2 fw-bold">Ou Soben</p>
+          <p className="pt-3 ps-2 fw-bold">Ou Soben</p>
         </div>
 
         <div className="">
@@ -180,7 +177,7 @@ const Homepage = () => {
               </div>
             );
           })}
-          <div className="d-flex">
+          <div className="d-flex  item-left rounded mt-2">
             {" "}
             <button
               style={{ height: "40px", width: "40px" }}
@@ -212,11 +209,11 @@ const Homepage = () => {
               </div>
             );
           })}
-          <div className="d-flex">
+          <div className="d-flex  item-left rounded">
             {" "}
             <button
               style={{ height: "40px", width: "40px" }}
-              className="step ms-3 mt-2"
+              className="step ms-2 mt-2"
             >
               <FontAwesomeIcon
                 style={{ fontSize: "17px" }}
@@ -260,12 +257,12 @@ const Homepage = () => {
       </section>
 
       {/* middle side */}
-      <div className="col-xl-8 mt-3  flex-colomn my-5">
+      <div className="col-xl-8 mt-3  flex-colomn my-5 container ">
         <section className=" d-flex justify-content-center  ">
           <div style={{ width: "600px" }} className="mt-2 gap-1 d-flex">
             <div
               style={{ height: "230px", width: "150px", cursor: "pointer" }}
-              className=" bg-white storyImage"
+              className=" bg-white storyImage image-container"
             >
               <img
                 className="img-fluid rounded-top"
@@ -279,9 +276,10 @@ const Homepage = () => {
                 <FontAwesomeIcon className="text-white" icon={faPlus} />
               </button>
             </div>
+          
             <div
               style={{ height: "230px", width: "150px", cursor: "pointer" }}
-              className="storyImage2"
+              className="storyImage2 "
             >
               <img
                 src="https://lh3.googleusercontent.com/BWoZ2a1rLr0GwAQOMDv_wSiAVOIfojPVy1dk6g_5slxviqSFL5YZ-oiuk5lqDmxzZUGmCCusH5gNGgY=w544-h544-p-l90-rj"
@@ -293,7 +291,7 @@ const Homepage = () => {
             </div>
             <div
               style={{ height: "230px", width: "150px", cursor: "pointer" }}
-              className="storyImage3"
+              className="storyImage3 i"
             >
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS20Y8ey-KpwhT6yewd8Q3TxGyozYQp45iADA&usqp=CAU"
@@ -316,6 +314,7 @@ const Homepage = () => {
               />
             </div>
           </div>
+       
         </section>
         <div className="  d-flex justify-content-center mt-4">
           <div style={{ width: "600px" }} className="bg-white rounded border">
@@ -369,13 +368,14 @@ const Homepage = () => {
               <div className="ps-3 pt-3 d-flex justify-content-between">
                 <div className="d-flex">
                   <img
+                  style={{cursor: "pointer"}}
                     src="https://www.acledasecurities.com.kh/as/assets/layout/logo1.png"
                     class="  murecho"
                     height="44"
                     alt=""
                     loading="lazy"
                   />
-                  <p className="fw-bolder ps-3">
+                  <p style={{cursor: "pointer"}} className="fw-bolder ps-3">
                     ACLEDA​​ Bank Plc. <br />
                     <span
                       style={{ fontSize: "13px" }}
@@ -475,13 +475,14 @@ const Homepage = () => {
               <div className="ps-3 pt-3 d-flex justify-content-between">
                 <div className="d-flex">
                   <img
+                  style={{cursor: "pointer"}}
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNqwFvLm3BUbkdv5q_rP9sFbNjZKSJ6W8vrdpWYRq2Uc3KC8eS0HWfofzcu7yFyId7WbY&usqp=CAU"
                     class=" circle border-primary murecho"
                     height="44"
                     alt=""
                     loading="lazy"
                   />
-                  <p className="fw-bolder ps-3">
+                  <p style={{cursor: "pointer"}} className="fw-bolder ps-3">
                     Decathlon Cambodia <br />
                     <span
                       style={{ fontSize: "13px" }}
@@ -713,15 +714,15 @@ const Homepage = () => {
       {/* right side */}
       <section
         style={{ overflow: "auto", height: "900px" }}
-        className="  col-xl-2 d-none d-xl-block "
+        className="  col-xl-2  d-none d-xl-block position-fixed end-0 "
       >
-        <div className="d-flex justify-content-between mt-3">
+        <div className="d-flex justify-content-between mt-3 ">
           <p>Your Pages and profiles</p>
           <a style={{ textDecorationLine: "none" }} href="#">
             Edit
           </a>
         </div>
-        <div style={{ cursor: "pointer" }} className="d-flex">
+        <div style={{ cursor: "pointer" }} className="d-flex ">
           <img
             src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
             class="rounded-circle  murecho"

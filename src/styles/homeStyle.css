@@ -15,7 +15,12 @@ body{
        background-size: cover;
        background-position:center;
        border-radius: 10px;    
+       transition: background-color 0.5s ease-in-out;
    }
+   .image-container:hover {
+      background-color: rgba(0, 0, 0, 0.3); /* Add semi-transparent overlay on hover */
+      /* Add other animations for the container here */
+    }
    .storyImage3{
     background-image: url("https://i.pinimg.com/236x/8f/39/a4/8f39a427cb170b957a99179d083c7134.jpg");
        background-repeat:no-repeat;
@@ -87,7 +92,7 @@ body{
 
   }
   .postImage{
-   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJLe-AlHbgSBHsgQzGVF9umPwuvY6sReYO5A&usqp=CAU");
+   background-image: url("https://assets.adidas.com/images/w_600,f_auto,q_auto/f9ce5733049f4ca8a93aa8bf011858bd_9366/Samba_OG_Shoes_White_B75806_09_standard.jpg");
       background-repeat:no-repeat;
       -webkit-background-size:cover;
       -moz-background-size:cover;
@@ -158,3 +163,18 @@ body{
       background-size: cover;
       background-position:center;
   }
+  .image-container {
+   position: relative; /* Allows positioning child elements */
+   overflow: hidden; /* Ensures animation stays within container */
+ }
+ 
+ .image-container img {
+   transition: all 0.5s ease-in-out; /* Smooth animation for all properties */
+ }
+ 
+ .image-container:hover img {
+   transform: scale(1.1); /* Increase image size */
+   opacity: 0.8;  /* Reduce opacity slightly on hover */
+   /* Add other animations here */
+ }
+ 
