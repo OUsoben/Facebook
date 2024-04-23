@@ -56,17 +56,17 @@ const Homepage = () => {
     },
     {
       imageUrl:
-        "https://scontent.fpnh11-2.fna.fbcdn.net/v/t1.6435-9/36319086_645507579117063_3493789190435373056_n.jpg?stp=c8.0.50.50a_cp0_dst-jpg_p50x50&_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeF6Vc3ia2lQ5CZZ_ONPeuMR8XS9pDBNxunxdL2kME3G6a1eR6MYjI0SQWKWvRa7UAeI0NRuxf2a2tGBW3ukLqVD&_nc_ohc=9dt3fml_j_wAX9vWfb4&_nc_ht=scontent.fpnh11-2.fna&oh=00_AfD4nZxBRJR3vEPiCg5Eakb9aW5Kv_-ODLIDw4lNW9sEkg&oe=661E119C",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlvfKx6d7bamsce3CR7JxmFF7hUFaWhz0I51hC9zEHzQ&s",
       titleName: "សាកលវិទ្យាល័យភូមិន្ទភ្នំពេញ ",
     },
     {
       imageUrl:
-        "https://scontent.fpnh11-2.fna.fbcdn.net/v/t1.6435-9/131692348_3550755238353879_2998477720949305725_n.jpg?stp=c31.0.50.50a_cp0_dst-jpg_p50x50&_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeF9bDZHBGpyj4DLHt1XLPBbenW2kwIVSLV6dbaTAhVItb5gY5N_ep9h7YRy62_MRr95iYnXcibXSdvRxFNTPX-b&_nc_ohc=W2VSdb1ICDUAX9eDBY2&_nc_ht=scontent.fpnh11-2.fna&oh=00_AfAYL6kAV-vznTifQQqLSrT_RbKsv5VKS0JJ2P3wtsVtdw&oe=661E2A3A",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSGXxNK6Zqaq3HnhCIacF8neB-okuKf3aahhiXmIPhzA&s",
       titleName: "ចំណេះដឹងអាយធី IT",
     },
     {
       imageUrl:
-        "https://scontent.fpnh11-1.fna.fbcdn.net/v/t1.18169-9/1483207_10150001784124944_240076833_n.png?stp=cp0_dst-png_p50x50&_nc_cat=1&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFL9ZHYv59zMlYFrIUBPNLZQif8GfH4WC9CJ_wZ8fhYL7YrrK1IN-gmcJ2YjxfU5F7lmy2Afje1o_ndVe2W9IS8&_nc_ohc=mb962GCDQUUAX9JBTxy&_nc_ht=scontent.fpnh11-1.fna&oh=00_AfAFeBzOMuo829aZkJObph4KVLTVBFqIMTFeBT8tZJypsw&oe=661DFEC7",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCvzpLQCGMVWcXotq8Beet4AT8Z8VxbA8T9xccmdkfo_Dl3DyMdbpGV7Ik9cLo2mGV8NE&usqp=CAU",
       titleName: "IT Job Cambodia",
     },
     {
@@ -157,12 +157,12 @@ const Homepage = () => {
   return (
     <div className="row me-0">
       {/* left side */}
-      <section className="col-xl-2 d-none d-xxl-block position-fixed start-0">
+      <section style={{height:"100%",width:"360px"}} className="rightSide-hover  col-xl-3 d-none d-xxl-block position-fixed start-0">
         <div style={{ cursor: "pointer" }} className="d-flex mt-3  item-left rounded">
           <img
             src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
-            class="rounded-circle m-2 ms-3 murecho"
-            height="40"
+            class="rounded-circle m-2  murecho"
+            height="34"
             alt="Black and White Portrait of a Man"
             loading="lazy"
           />
@@ -180,15 +180,15 @@ const Homepage = () => {
           <div className="d-flex  item-left rounded mt-2">
             {" "}
             <button
-              style={{ height: "40px", width: "40px" }}
-              className="step ms-3 mt-2"
+              style={{ height: "35px", width: "35px" }}
+              className="step ms-1 mt-2"
             >
               <FontAwesomeIcon
-                style={{ fontSize: "17px" }}
+                style={{ fontSize: "15px" }}
                 icon={faAngleDown}
               />
             </button>
-            <p className="pt-3 ps-2 fw-bold">See more</p>
+            <p style={{paddingTop:"13px"}} className=" ps-2 fw-bold">See more</p>
           </div>
           <hr />
           <div className="d-flex justify-content-between ">
@@ -257,7 +257,7 @@ const Homepage = () => {
       </section>
 
       {/* middle side */}
-      <div className="col-xl-8 mt-3  flex-colomn my-5 container ">
+      <div className="col-xxl-6 mt-3 col-xl-8  flex-colomn my-5 container justify-content-start ">
         <section className=" d-flex justify-content-center  ">
           <div style={{ width: "600px" }} className="mt-2 gap-1 d-flex">
             <div
@@ -713,8 +713,8 @@ const Homepage = () => {
 
       {/* right side */}
       <section
-        style={{ overflow: "auto", height: "900px" }}
-        className="  col-xl-2  d-none d-xl-block position-fixed end-0 "
+        style={{  height: "100%",width:"20%" }}
+        className=" rightSide-hover col-xl-3 col-lg-4  d-none d-xl-block position-fixed end-0 "
       >
         <div className="d-flex justify-content-between mt-3 ">
           <p>Your Pages and profiles</p>

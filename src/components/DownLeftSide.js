@@ -9,7 +9,7 @@ const DownLeftSide = (props) => {
             src={props.optionData.imageUrl}
             class=" rounded m-2  murecho"
             height="37"
-            alt="Black and White Portrait of a Man"
+            alt=""
             loading="lazy"
           />
           <p style={{whiteSpace: "pre"}} className=' ps-2 pt-3 fw-bold'>{props.optionData.titleName}</p>

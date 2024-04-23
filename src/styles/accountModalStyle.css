@@ -1,0 +1,28 @@
+
+*{
+  font-family: "Poppins", sans-serif;
+}
+.modal-dialog {
+    margin-top: 0px;
+    margin: auto; 
+    margin-right: 30px;
+    margin-top: 50px;
+
+    /* margin: auto; */
+  }
+ hr{
+  margin: 4px 0;
+ }
+ .account-card{
+   box-shadow: 0px 0px 5px 5px rgba(129, 128, 128, 0.127);
+ }
+ .list-style {
+  background-color:#E2E8F0;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 23px;
+  cursor: pointer;
+}

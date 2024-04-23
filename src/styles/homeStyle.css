@@ -177,4 +177,6 @@ body{
    opacity: 0.8;  /* Reduce opacity slightly on hover */
    /* Add other animations here */
  }
- 
+ .rightSide-hover:hover{
+    overflow: auto;
+ }

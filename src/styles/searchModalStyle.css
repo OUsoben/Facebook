@@ -8,7 +8,17 @@
     /* margin: auto; */
   }
   .modal-content {
-    border-radius: 0;
+    border-radius: 0px;
     
   }
+  li.no-space {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove any potential padding on the li */
+  }
+  
+  li.no-space span {
+    padding: 0; /* Ensure no padding on the span as well */
+  }
+
+  
   

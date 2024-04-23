@@ -1,18 +1,36 @@
-
     .modal-dialog {
         margin-top: 0px;
-        margin: auto; 
-        margin-right: 10px;
+        margin: auto ; 
+        margin-right: 30px;
         margin-top: 50px;
-        overflow-x: auto; 
-        
+
         /* margin: auto; */
       }
+     
+      
+     
       .modal-content { 
-        position: sticky;
-
-         margin-bottom: -150px;
-         border-radius: 0 0 5px 5px;
+       
+        overflow: auto; /* Adjust this property */
+        max-height: calc(100vh - 91px); /* Adjust max-height to fit your content */
+        margin-bottom: -150px;
+        border-radius: 5px;
         
       }
-   
+   .info-hover{
+    cursor: pointer;
+   }
+ .info-hover:hover{
+  background-color:#cdd6e2;
+
+ }
+ .reaction-noti{
+  background-color:#055dcf;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 23px;
+  cursor: pointer;
+ }
