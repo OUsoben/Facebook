@@ -2,7 +2,9 @@ import React from 'react'
 
 const VideoPage = () => {
   return (
-    <div>VideoPage</div>
+    <div>
+      I want to change something to the video
+    </div>
   )
 }
 
