@@ -160,7 +160,7 @@ const Homepage = () => {
       <section style={{height:"100%",width:"360px"}} className="rightSide-hover  col-xl-3 d-none d-xxl-block position-fixed start-0">
         <div style={{ cursor: "pointer" }} className="d-flex mt-3  item-left rounded">
           <img
-            src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+            src="https://meetcontent.com/wp-content/images/mc_1stperson_250.jpg"
             class="rounded-circle m-2  murecho"
             height="34"
             alt="Black and White Portrait of a Man"
@@ -724,10 +724,10 @@ const Homepage = () => {
         </div>
         <div style={{ cursor: "pointer" }} className="d-flex ">
           <img
-            src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+            src="https://meetcontent.com/wp-content/images/mc_1stperson_250.jpg"
             class="rounded-circle  murecho"
             height="40"
-            alt="Black and White Portrait of a Man"
+            alt=""
             loading="lazy"
           />
           <p className="pt-2 ps-2 fw-bold">Ou Soben</p>

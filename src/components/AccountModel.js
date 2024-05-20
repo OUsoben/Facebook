@@ -27,7 +27,7 @@ const AccountModel = ({ showAccountModal, handleCloseModal }) => {
             >
               <img
                 style={{ cursor: "pointer" }}
-                src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+                src="https://meetcontent.com/wp-content/images/mc_1stperson_250.jpg"
                 class="rounded-circle"
                 height="35"
                 alt=""

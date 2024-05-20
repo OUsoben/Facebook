@@ -219,10 +219,10 @@ function Header() {
                 setShowAccountModal(true);
               }}
               style={{ cursor: "pointer" }}
-              src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+              src="https://meetcontent.com/wp-content/images/mc_1stperson_250.jpg"
               class="rounded-circle"
               height="40"
-              alt="Black and White Portrait of a Man"
+              alt=""
               loading="lazy"l
             />
           </div>
