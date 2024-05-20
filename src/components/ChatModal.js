@@ -67,14 +67,14 @@ const ChatModal = ({ showChatModal, handleChatCloseForm }) => {
             <div className="d-flex">
               <img
                 style={{ cursor: "pointer" }}
-                src="https://scontent.fpnh11-1.fna.fbcdn.net/v/t1.6435-1/189080926_309898550588275_8264110849064117025_n.jpg?stp=cp0_dst-jpg_p60x60&_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=lhzFYm0aW40AX_yIl7U&_nc_ht=scontent.fpnh11-1.fna&oh=00_AfCWEznio11HtzIHGRGFmjTn_TjCap3sOsx0XRZ_e8aoFg&oe=661FB500"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8EGbXT7eLJ2nK6ezGoDqCWc9CUabqCp2TnYbPtRK8Bg&s"
                 className="rounded-circle"
                 height="55"
                 alt="Keshi"
                 loading="lazy"
               />
               <p style={{ fontSize: "14px" }} className="ps-3 fw-bold">
-                Keshi
+                Jonh Cena
                 <br />
                 <span className="text-muted fw-light">
                   Lorem ipsum, dolor sit amet...{" "}

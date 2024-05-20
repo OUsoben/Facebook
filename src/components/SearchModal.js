@@ -41,14 +41,14 @@ const SearchModal = ({showModal , handleCloseForm }) => {
         <div className='d-flex  align-items-center'>
     <img
                style={{cursor: "pointer"}}
-                  src="https://scontent.fpnh11-1.fna.fbcdn.net/v/t1.6435-1/189080926_309898550588275_8264110849064117025_n.jpg?stp=cp0_dst-jpg_p60x60&_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=lhzFYm0aW40AX_yIl7U&_nc_ht=scontent.fpnh11-1.fna&oh=00_AfCWEznio11HtzIHGRGFmjTn_TjCap3sOsx0XRZ_e8aoFg&oe=661FB500"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8EGbXT7eLJ2nK6ezGoDqCWc9CUabqCp2TnYbPtRK8Bg&s"
                   class="rounded-circle"
                   height="35"
-                  alt="Black and White Portrait of a Man"
+                  alt=""
                   loading="lazy"
                 />
                 <p clas style={{fontSize:"14px"}} className='ps-3 fw-bold  mb-0'>
-                  Keshi
+                  Jonh Cena
                   <li className='text-primary '><span className='text-muted fw-light' style={{fontSize:"13px"}}>2 new</span>
                 </li>
                 </p>   
@@ -68,7 +68,7 @@ const SearchModal = ({showModal , handleCloseForm }) => {
                   src="https://i.guim.co.uk/img/media/2965737a8d6966d949a9c7bfc255af426b5a79ac/443_69_2406_1444/master/2406.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=e8224f4f999aad1326f43373a2a7d781"
                   class="rounded-circle"
                   height="35"
-                  alt="Black and White Portrait of a Man"
+                  alt=""
                   loading="lazy"
                 />
                 <p clas style={{fontSize:"14px"}} className='ps-3 fw-bold  mb-0'>
@@ -92,7 +92,7 @@ const SearchModal = ({showModal , handleCloseForm }) => {
                   src="https://i.quotev.com/n3ce37u5aaaa.jpg"
                   class="rounded-circle"
                   height="35"
-                  alt="Black and White Portrait of a Man"
+                  alt=""
                   loading="lazy"
                 />
                 <p clas style={{fontSize:"14px"}} className='ps-3 fw-bold  mb-0'>
@@ -116,7 +116,7 @@ const SearchModal = ({showModal , handleCloseForm }) => {
                   src="https://assets-prd.ignimgs.com/2024/02/22/keanu-button-1708614107039.jpg?width=250&auto=webp"
                   class="rounded-circle"
                   height="35"
-                  alt="Black and White Portrait of a Man"
+                  alt=""
                   loading="lazy"
                 />
                 <p clas style={{fontSize:"14px"}} className='ps-3 fw-bold  mb-0'>
@@ -140,7 +140,7 @@ const SearchModal = ({showModal , handleCloseForm }) => {
                   src="https://pbs.twimg.com/profile_images/887503129633337344/7qJqEm-j_400x400.jpg"
                   class="rounded-circle"
                   height="35"
-                  alt="Black and White Portrait of a Man"
+                  alt=""
                   loading="lazy"
                 />
                 <p clas style={{fontSize:"14px"}} className='ps-3 fw-bold  mb-0'>
@@ -164,7 +164,7 @@ const SearchModal = ({showModal , handleCloseForm }) => {
                   src="https://upload.wikimedia.org/wikipedia/commons/a/ae/VannDa.jpg"
                   class="rounded-circle"
                   height="35"
-                  alt="Black and White Portrait of a Man"
+                  alt=""
                   loading="lazy"
                 />
                 <p clas style={{fontSize:"14px"}} className='ps-3 fw-bold  mb-0'>

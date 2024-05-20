@@ -30,7 +30,7 @@ const AccountModel = ({ showAccountModal, handleCloseModal }) => {
                 src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
                 class="rounded-circle"
                 height="35"
-                alt="Black and White Portrait of a Man"
+                alt=""
                 loading="lazy"
               />
               <p className="pt-3 pb-0 ps-2 fw-bolder ">Ou soben</p>

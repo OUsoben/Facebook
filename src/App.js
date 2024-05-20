@@ -19,7 +19,7 @@ function App() {
            <Route path='/friends' element ={<FriendPage/>}/>
            <Route path='/videos' element ={<VideoPage/>}/>
            <Route path='/marketplace' element={<MarketPage/>}/>
-           <Route path='/gamming' element={<GamePage/>}/>
+           <Route path='/gaming' element={<GamePage/>}/>
           <Route path='*' element ={<NotFoundPage/>}/>
          </Routes>
         </BrowserRouter>

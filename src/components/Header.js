@@ -167,7 +167,7 @@ function Header() {
               <FontAwesomeIcon icon={faStore} />
             </NavLink>
             <NavLink
-              to={"/gamming"}
+              to={"/gaming"}
               className="btn px-5 py-2 fs-5 Nav_Link border-0 tooltext"
               onClick={() => {}}
             >
