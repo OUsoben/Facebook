@@ -23,6 +23,7 @@ const NotFoundPage = () => {
         >Go back</a>
         <a  style={{textDecorationLine:"none",cursor:"pointer"}} className='fw-bold text-primary mt-2'>Visit Help Center</a>
     </div>
+    <h1>Hello</h1>
     </div>
   )
 }
